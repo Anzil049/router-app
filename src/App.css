@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.navbar {
+  padding: 15px;
+  background-color: #222;
+}
+
+.nav-link {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: yellow;
+  font-weight: bold;
+  border-bottom: 2px solid yellow;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
